@@ -16,6 +16,9 @@ dist-ssr
 # the installed pdfjs-dist version.
 /public/pdf.worker.min.mjs
 
+# Local Claude Code session config (machine/user-specific)
+.claude/settings.local.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

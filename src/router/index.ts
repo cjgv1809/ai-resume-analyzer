@@ -3,7 +3,7 @@ import { watch } from "vue";
 import { usePuterStore } from "~/stores/puter";
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
